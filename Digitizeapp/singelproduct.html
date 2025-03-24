@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digitize App</title>
-    <link rel="stylesheet" href="./build/tailwind.css"/>
+    <link rel="stylesheet" href="public/build/tailwind.css"/>
 </head>
 <body class="bg-stone-100">
     <nav class="sticky top-0 z-20 bg-white shadow-lg hidden md:block mb-8">
@@ -332,14 +332,13 @@
                             <!-- price and button cart -->
                             <div class="mt-10">
                                 <div class="w-full text-orange-500 font-bold md:text-sm lg:text-lg text-center mb-3">28,500.000 تومان</div>
-                                <button class="w-full py-3 md:text-xs lg:text-base text-white bg-orange-500 rounded-md">اضافه به سبد خرید</button>
+                                <button class="w-full py-3 md:text-xs lg:text-base text-white bg-orange-500 rounded-md">
+                                    <a href="/card.html">اضافه به سبد خرید</a>
+                                </button>
                             </div>
                         </div>
                      </div>
                 </div>
-
-
-
                  <!-- description product -->
                 <div class="bg-white px-4 py-2 rounded-xl mb-8">
                     <div class="mb-10">
@@ -375,7 +374,9 @@
     <!-- fixed add to cart button -->
     <div class="md:hidden bg-white fixed left-0 right-0 bottom-3 w-full shadow-t-xl px-4 py-2">
         <div class="flex items-center justify-between gap-x-2">
-            <button type="button" class="w-full py-3 text-white bg-orange-500 rounded-md">اضافه به سبد خرید</button>
+            <button type="button" class="w-full py-3 text-white bg-orange-500 rounded-md">
+                <a href="/card.html">اضافه به سبد خرید</a>
+                </button>
             <div class="flex flex-col items-end text-slate-800">
                 <span>32000000</span>
                 <span class="text-gray-400 text-sm">تومان</span>
